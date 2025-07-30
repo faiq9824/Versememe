@@ -1,0 +1,23 @@
+body {
+  background-image: url('galaxy(1).jpg');
+}
+
+.hidden {
+  display: none !important;
+}
+
+.character.bg-warning {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+}
+
+.highlight {
+  animation: flash 0.6s ease-in-out;
+}
+
+@keyframes flash {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
